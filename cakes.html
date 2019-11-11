@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Etty's &#38; Cakes Cookies</title>
+       <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poppins:200,300,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="dropdown.js" defer></script>
+      <script src="cakes.js" defer></script>
+        <link rel="stylesheet" href="./reset.css"/>
+        <link rel="stylesheet" href="./rose-cake.css"/>
+        <link rel="stylesheet" href="./cakes.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="main-menu">
+                <div class="logo-image">
+                     <a href="index.html">
+                        <img src="./images/logo-etty-150.png" alt="logo-image" width="100" height="100"/>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="product-menu"><a href="index.html#product-box">ABOUT US</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="/contact.html">Contact Us</a>
+                            </div>
+                        </li>
+                        <li id="product-menu"><a class="active" href="index.html#product-box">OUR PRODUCTS</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="/cakes.html">Cakes</a>
+                                <a href="#">Cupcakes</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Pastry</a>
+                                <a href="#">Current Promo</a>
+                            </div>
+                        </li>
+                        <li>LOGIN</li>
+                        <li>YOUR SHOPPING CART<i class="material-icons">shopping_cart</i></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article>
+            <div class="box-product default"> 
+                <div class="product-desc">
+                     <h4>HOVER ON IMAGES BELOW TO SEE DETAILED INFO OF OUR CAKES ASSORTMENT</h4>
+                     <p>Assortment with <i class="material-icons grade">favorite</i> label is our customers' favorite</p>
+                </div>
+            </div>
+            <div class="box-product choklad">
+                <div class="product-image">
+                        <img src="images/cake-0.jpg" alt="cake one"/>
+                        <p><i class="material-icons grade">favorite</i> our customers' favorite</p>
+                </div>
+                <div class="product-desc" id="choco-cake">
+                     <h1>Chocolate Almond Cake<i class="material-icons favorite">favorite</i></h1>
+                    <h4 class="priceTag"></h4>
+                     <p>Sweet tart powder lemon drops muffin pie bear claw. Sweet roll danish gummi bears sweet roll dessert wafer wafer tiramisu lollipop. Chupa chups powder bonbon jelly-o soufflé marzipan cake tootsie roll soufflé.</p>
+                    <div class="ingredients-box">
+                        <p><span class="text-block">Ingredients:</span> Flour, Cooking Dark Chocolate, Sugar, Heavy Cream, Baking powder, Salt, Butter, </p>
+                    </div>
+                    <div class="slidecontainer">
+                            <label for="slider">Choose cake size:</label>
+                            <input type="range" min="0" max="4" value="0" class="slider" id="myRange">
+                            <div class="value"></div>
+                          </div>
+                        <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-product rose">
+                <div class="product-image">
+                     <img src="images/cake-2.jpg" alt="cake one"/>
+                </div>
+                <div class="product-desc">
+                    <h1>Rose Cakes</h1>
+                    <h4 class="priceTag"></h4>
+                    <p>Jujubes carrot cake lollipop caramels cotton candy powder cheesecake jujubes. Jujubes bear claw halvah I love chocolate marzipan chocolate bar. Gingerbread chocolate cake cookie candy gummies.</p>
+                    <div class="ingredients-box">
+                        <p><span class="text-block">Ingredients:</span> Cream, Sugar, Flour, Salt, Butter, Vanilla Extract, Strawberry jam, Eggs, Baking powder, Baking soda, Oil</p>
+                    </div>
+                    <div class="slidecontainer">
+                            <label for="slider">Choose cake size:</label>
+                            <input type="range" min="0" max="6" value="0" class="slider" id="myRange">
+                            <div class="value"></div>
+                          </div>
+                        <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-product cake">
+                <div class="product-image">
+                     <img src="images/cake-1.jpg" alt="cake one"/>
+                </div>
+                <div class="product-desc">
+                    <h1>Event Cakes</h1>
+                    <h4 class="priceTag"></h4>
+                    <p>Jujubes carrot cake lollipop caramels cotton candy powder cheesecake jujubes. Jujubes bear claw halvah I love chocolate marzipan chocolate bar. Gingerbread chocolate cake cookie candy gummies.</p>
+                    <div class="ingredients-box">
+                        <p><span class="text-block">Ingredients:</span> Cream, Sugar, Flour, Strawberry jam, Eggs, Baking powder, Salt, Milk, Vanilla Extract, Butter, Baking soda, Oil</p>
+                    </div>
+                    <div class="slidecontainer">
+                            <label for="slider">Choose cake size:</label>
+                            <input type="range" min="0" max="3" value="0" class="slider" id="myRange">
+                            <div class="value"></div>
+                          </div>
+                        <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-product purple">
+                <div class="product-image">
+                     <img src="images/cake-3.jpg" alt="cake one"/>
+                </div>
+                <div class="product-desc">
+                    <h1>Purple Cake</h1>
+                    <h4 class="priceTag"></h4>
+                    <p>Powder topping pudding. Liquorice gummies bonbon chocolate bar cotton candy. Dragée powder jelly chocolate bar jelly-o. Donut chocolate bar powder candy gummies croissant chocolate cake brownie.</p>
+                    <div class="ingredients-box">
+                        <p><span class="text-block">Ingredients:</span> Heavy Cream, Sugar, Flour, Rubbarb, Salt, Eggs, Baking powder, Baking soda, Oil</p>
+                    </div>
+                    <div class="slidecontainer">
+                            <label for="slider">Choose cake size:</label>
+                            <input type="range" min="0" max="3" value="0" class="slider" id="myRange">
+                            <div class="value"></div>
+                          </div>
+                        <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-product cheesecake">
+                <div class="product-image">
+                     <img src="images/cake-4.jpg" alt="cake one"/>
+                     <p><i class="material-icons grade">favorite</i> our customers' favorite</p>
+                </div>
+                <div class="product-desc">
+                    <h1>Cheesecake Slice<i class="material-icons favorite">favorite</i></h1>
+                    <h4 class="priceTag"></h4>
+                    <p>Soufflé chocolate cake marzipan bonbon. Cookie candy candy. Apple pie muffin dessert jujubes lollipop cotton candy tart chocolate cake pastry. Cheesecake chocolate cake jelly-o jelly-o jujubes marzipan.</p>
+                    <div class="ingredients-box">
+                        <p><span class="text-block">Ingredients:</span> Cheesecake, Sour Cream, Heavy Cream, Sugar, Flour, Strawberry jam, Eggs, Baking powder, Baking soda, Oil</p>
+                    </div>
+                    <div class="slidecontainer">
+                            <label for="slider">Choose cake size:</label>
+                            <input type="range" min="0" max="9" value="0" class="slider" id="myRange">
+                            <div class="value"></div>
+                          </div>
+                        <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-product blueberry">
+                    <div class="product-image">
+                         <img src="images/cake-5.jpg" alt="cake one"/>
+                         <p><i class="material-icons grade">favorite</i> our customers' favorite</p>
+                    </div>
+                    <div class="product-desc">
+                            <h1>Blue-Red Berry Cake<i class="material-icons favorite">favorite</i></h1>
+                            <h4 class="priceTag"></h4>
+                            <p>Danish marzipan ice cream cake. Carrot cake lollipop caramels dragée cupcake macaroon. Macaroon ice cream icing jelly beans chupa chups liquorice cake jelly. Candy canes sweet roll cookie jujubes croissant halvah.</p>
+                            <div class="ingredients-box">
+                                <p><span class="text-block">Ingredients:</span> Heavy Cream, Sugar, Flour, Blueberry Jam, Strawberry, Salt, Butter, Eggs, Baking Powder, Baking Soda</p>
+                            </div>
+                            <div class="slidecontainer">
+                                    <label for="slider">Choose cake size:</label>
+                                    <input type="range" min="0" max="4" value="0" class="slider" id="myRange">
+                                    <div class="value"></div>
+                                  </div>
+                                <button id="order"><a href="#product-box">PUT TO CART<i class="material-icons">add_shopping_cart</i></a></button>
+                            </div>
+                    </div>      
+            </div>
+            <hr>
+            <div class="selector-product">
+                <div class="block1">
+                    <div class="circle">
+                        <img src="images/cake-0.jpg" alt="cake one" id="cake1"/>
+                        <p>Chocolate Almond Cake</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/cake-2.jpg" alt="cake one" id="cake2"/>
+                        <p>Rose Cake</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/cake-1.jpg" alt="cake one" id="cake3"/>
+                        <p>Event Cake</p>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="circle">
+                        <img src="images/cake-3.jpg" alt="cake one" id="cake4"/>
+                        <p>Purple Cake</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/cake-4.jpg" alt="cake one" id="cake5"/>
+                        <p>Cheesecake Slice</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/cake-5.jpg" alt="cake one" id="cake6"/> 
+                        <p>Blue-Red Berry Cake</p>  
+                    </div>
+                </div>
+            </div>
+                 
+        </article>
+    </body>
+</html>

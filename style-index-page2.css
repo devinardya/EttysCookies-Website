@@ -1,0 +1,146 @@
+article{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+
+#text-box{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+article h1{
+    text-align: center;
+    color: #ec6e81;
+    font-size: 3.5rem;
+}
+
+hr{
+    border: 1px dashed #ec6e81;
+    width: 50%;
+    margin: 40px auto;
+
+}
+
+article p{
+    align-self: center;
+    max-width: 500px;
+    line-height: 25px;
+    text-align: justify;
+    margin: 0 40px 20px 40px;
+}
+
+#product-box{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ec6e81;
+    color: #fff
+}
+
+#product-box h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+#product-box p{
+    width: 40%;
+    line-height: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+#product-box hr{
+    border: 1px dashed #fff;
+}
+
+.box-product{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.box{
+    width: calc(225px - 60px);
+    height: auto;
+    flex-grow: 2;
+    margin: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease-out;
+}
+
+.box img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    object-position: center;
+    border-radius: 10px;
+    filter: brightness(0.5);
+    
+}
+
+.text-container{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    color: #737373;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    z-index: 2;
+}
+
+.text-container a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.text-container h4{
+    padding-top: 16px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+.box:hover{
+    transform: scale(1.1);
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.box:hover img{
+    filter: brightness(1);
+    cursor: pointer;
+}
+
+#back-to-top{
+    align-self: center;
+    padding: 7px 30px;
+}
+
+#back-to-top a, #order a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
