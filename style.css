@@ -257,7 +257,7 @@ td{
   .dropdown-content{
     position: absolute;
     background-color: #ec6e81;
-    width: 125 px;
+    width: 132px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10;
     top: 17px;
